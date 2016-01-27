@@ -163,9 +163,27 @@ oUF.Tags.Methods['free:bosshealth'] = function(unit)
 end
 oUF.Tags.Events['free:bosshealth'] = "UNIT_HEALTH_FREQUENT UNIT_MAXHEALTH UNIT_TARGETABLE_CHANGED"
 
+-- UTF8 string truncate
+do 
+	local strbyte = string.byte
+	function string_cut(s, c)
+		local l, i = #s, 1
+		while c>0 and i<=l do
+			local b = strbyte(s, i)
+			if     b < 192 then	i = i + 1
+			elseif b < 224 then i = i + 2
+			elseif b < 240 then	i = i + 3
+			else				i = i + 4
+			end
+			c = c - 1
+		end
+		return s:sub(1, i-1)
+	end
+end
+
 local function shortName(unit)
 	local name = UnitName(unit)
-	if name and name:len() > 4 then name = name:sub(1, 4) end
+	name = string_cut(name, 4)
 
 	return name
 end
