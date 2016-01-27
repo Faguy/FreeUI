@@ -529,7 +529,7 @@ C["allBuffs"] = {
 	[871] = true, -- Shield Wall
 	[61336] = true, -- Survival Instincts
 	[122470] = true, -- Touch of Karma
-
+	[102342] = true, -- Ironbark
 	[1022] = true, -- Hand of Protection
 	[1038] = true, -- Hand of Salvation
 	[6940] = true, -- Hand of Sacrifice
