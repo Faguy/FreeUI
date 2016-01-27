@@ -487,6 +487,8 @@ if select(2, UnitClass("player")) == "PRIEST" then C.hideDebuffs[6788] = false e
 
 C["myBuffs"] = {
 	[774] = true, -- Rejuvenation
+	[155777] = true, -- Rejuvenation (Germination)
+	[48438] = true, -- Wild Growth
 	[8936] = true, -- Regrowth
 	[33763] = true, -- Lifebloom
 
