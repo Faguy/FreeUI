@@ -492,10 +492,9 @@ C["myBuffs"] = {
 	[8936] = true, -- Regrowth
 	[33763] = true, -- Lifebloom
 
-	[33110] = true, -- Prayer of Mending
 	[33076] = true, -- Prayer of Mending
-	[41635] = true, -- Prayer of Mending
-	[41637] = true, -- Prayer of Mending
+	[126154] = true, -- Lightwell Renew
+	[152118] = true, -- Clarity of Will
 	[139] = true, -- Renew
 	[17] = true, -- Power Word: Shield
 
