@@ -79,17 +79,17 @@ if GetLocale() == "enUS" or GetLocale() == "enGB" then
 	SELL_PRICE = "Price"
 end
 
-ARMOR_TEMPLATE = "Armor: %s"
-DAMAGE_TEMPLATE = "Damage: %s - %s"
-DPS_TEMPLATE = "%s DPS"
-DURABILITY_TEMPLATE = "Durability: %d/%d"
-SHIELD_BLOCK_TEMPLATE = "Block: %d"
+--ARMOR_TEMPLATE = "Armor: %s"
+--DAMAGE_TEMPLATE = "Damage: %s - %s"
+--DPS_TEMPLATE = "%s DPS"
+--DURABILITY_TEMPLATE = "Durability: %d/%d"
+--SHIELD_BLOCK_TEMPLATE = "Block: %d"
 
-EMPTY_SOCKET_RED = "red"
-EMPTY_SOCKET_YELLOW = "yellow"
-EMPTY_SOCKET_BLUE = "blue"
-EMPTY_SOCKET_META = "meta"
-EMPTY_SOCKET_NO_COLOR = "prismatic"
+--EMPTY_SOCKET_RED = "red"
+--EMPTY_SOCKET_YELLOW = "yellow"
+--EMPTY_SOCKET_BLUE = "blue"
+--EMPTY_SOCKET_META = "meta"
+--EMPTY_SOCKET_NO_COLOR = "prismatic"
 
 --[[ Loot mods ]]
 
